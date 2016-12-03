@@ -15,7 +15,7 @@
 
 		<tr>
 
-			<td align="center">년도</td>
+			<td align="center">수강년도</td>
 			<td align="center">학기</td>
 			<td align="center">이수 학점</td>
 			<td align="center">상세보기</td>

@@ -38,7 +38,7 @@ public class SubjectController {
 		return "gradecheck";
 	}
 
-	@RequestMapping("/gradecountcheck")
+	@RequestMapping("/gradecountcheck") 
 	public String createOffers(Model model) {
 		
 		int a = subjectService.getSubjectCountName("±³ÇÊ");

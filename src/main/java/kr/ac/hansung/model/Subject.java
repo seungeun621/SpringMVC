@@ -6,7 +6,7 @@ public class Subject {
 	private int grade;
 	private String code;
 	private String name;
-	private String division;
+	private String division; 
 	private int score;
 
 	public Subject() {

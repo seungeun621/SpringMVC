@@ -14,7 +14,7 @@ import kr.ac.hansung.model.Subject;
 import kr.ac.hansung.service.SubjectService;
 
 /**
- * Servlet implementation class DoApplication
+ * Servlet implementation class DoApplication 
  */
 @WebServlet("/DoApplication")
 public class DoApplication extends HttpServlet {

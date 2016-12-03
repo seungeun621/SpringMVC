@@ -20,7 +20,7 @@ public class SubjectService {
 	
 	public List<Subject> getCurrunt() {
 		return subjectDAO.getSubject();
-	}
+	} 
 	
 	public List<Subject> getCurrunt(int year, int grade) {
 		return subjectDAO.getSubject(year, grade);

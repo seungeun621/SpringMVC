@@ -11,7 +11,7 @@
 
 <!-- items안에 들어있는 개수만큼 forEach문이 돌아 변수 offer에 저장 -->
 	<c:forEach var="subject" items="${subject}">
-			<p>
+			<p> 
 			<c:out value="${subject}">
 			</c:out>
 		</p>

@@ -16,7 +16,7 @@ public class SubjectDAO {
 	private JdbcTemplate jdbcTemplateObject;
 
 	@Autowired
-	public void setDataSource(DataSource dataSource) {
+	public void setDataSource(DataSource dataSource) { 
 		this.jdbcTemplateObject = new JdbcTemplate(dataSource);
 	}
 

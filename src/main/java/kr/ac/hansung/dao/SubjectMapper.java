@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.RowMapper;
 
 import kr.ac.hansung.model.Subject;
 
-public class SubjectMapper implements RowMapper<Subject> {
+public class SubjectMapper implements RowMapper<Subject> { 
 
 	public Subject mapRow(ResultSet rs, int rowNum) throws SQLException {
 		
